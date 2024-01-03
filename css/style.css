@@ -122,11 +122,14 @@ header{
 
 .background-img {
   position: relative;
+  background-image: url('/images/fundo-home.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .background-img::before {
   content: "";
-  background-image: url('/images/fundo-home.gif');
+  /* background-image: url('/images/fundo-home.gif'); */
   opacity: 0.9; /* Ajuste este valor para a opacidade desejada */
   top: 0;
   left: 0;
