@@ -207,6 +207,16 @@ header {
   font-size: 5rem;
 }
 
+.projetos h2{
+  text-align: center;
+  width: 20.75rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 3rem;
+
+}
+
 .sportdata {
   display: flex;
   border: 1rem solid rgba(94, 83, 176, 0.488);
@@ -214,6 +224,7 @@ header {
   height: 29.375rem;
   border-radius: 5rem 0rem 5rem 5rem;
   transition: all 0.3s ease;
+  margin: 2cap;
 }
 
 .sportdatalink {
@@ -361,6 +372,123 @@ header {
   transition: transform 0.5s ease;
   border-right-color: #d2fdc4;
   border-bottom-color: rgb(210, 253, 196);
+}
+
+.mobile{
+  display: flex;
+  background-color: rgba(238, 238, 255, 0.295);
+  width: 100.125rem;
+  height: 40.375rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+.mobile-header{
+  display: flex;
+  width: 80rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.flutter{
+  display: flex;
+  border: 1rem solid rgba(94, 83, 176, 0.488);
+  background-color: #8998d180;
+  width: 100.125rem;
+  height: 40.375rem;
+  border-radius: 5rem 0rem 0rem 5rem;
+  transition: all 0.3s ease;
+  margin-right: 10rem;
+}
+.bookpointlink{
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+}
+.bookpointlink video{
+  width: 20.125rem;
+  height: 40.375rem;
+  object-fit: fill;
+  border-radius: 2.625rem 2.625rem 2.625rem 2.625rem;
+}
+.text-card-bookpoint{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-left: 1.25rem;
+}
+.text-card-bookpoint h1{
+  width: 16.25rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  padding: 0rem 0rem 0rem 0rem;
+  color: #000000;
+}
+.text-card-bookpoint p{
+  width: 18.75rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: #000000;
+}
+.flutter:hover{
+  transform: scale(1.02);
+  transition: transform 0.5s ease;
+  border-left-color: #d2fdc4;
+  border-bottom-color: rgb(210, 253, 196);
+  border-top-color: rgb(210, 253, 196);
+
+}
+.react-native{
+  display: flex;
+  border: 1rem solid rgba(94, 83, 176, 0.488);
+  background-color: #8998d180;
+  width: 100.125rem;
+  height: 40.375rem;
+  border-radius: 0rem 5rem 5rem 0rem;
+  transition: all 0.3s ease;
+}
+.geradorlink{
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+}
+.geradorlink video{
+  width: 20.125rem;
+  height: 40.375rem;
+  object-fit: fill;
+  border-radius: 2.625rem 2.625rem 2.625rem 2.625rem;
+  margin-left: 3.25rem;
+}
+.text-card-gerador{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-left: 1.25rem;
+}
+.text-card-gerador h1{
+  width: 16.25rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  padding: 0rem 0rem 0rem 0rem;
+  color: #000000;
+}
+.text-card-gerador p{
+  width: 18.75rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: #000000;
+}
+.react-native:hover{
+  transform: scale(1.02);
+  transition: transform 0.5s ease;
+  border-right-color: #d2fdc4;
+  border-bottom-color: rgb(210, 253, 196);
+  border-top-color: rgb(210, 253, 196);
 }
 
 .linha {
