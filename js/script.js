@@ -32,3 +32,22 @@ function copyToClipboard() {
       $(".video-hover-text").removeClass("show");
     });
   });
+
+//   var audio = document.getElementById('hover_card');
+
+// document.querySelector('.flutter').addEventListener('mouseover', function() {
+//   audio.play();
+// });
+
+// document.querySelector('.react-native').addEventListener('mouseover', function() {
+//   audio.play();
+// });
+// document.querySelector('.sportdata').addEventListener('mouseover', function() {
+//   audio.play();
+// });
+// document.querySelector('.escola').addEventListener('mouseover', function() {
+//   audio.play();
+// });
+// document.querySelector('.estagif').addEventListener('mouseover', function() {
+//   audio.play();
+// });
