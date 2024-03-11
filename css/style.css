@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
+:root{
+  --roxo-100: #251F47;
+  --lilas-500: #8997d1;
+}
 
 @media (max-width: 330px) {
   header {
@@ -52,7 +56,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #251F47;
+  background-color: var(--roxo-100);
   font-family: 'Dosis', sans-serif;
   text-decoration: none;
   width: 100%;
@@ -533,7 +537,7 @@ header {
   align-items: center;
   padding: 0rem 0rem 0rem 0rem;
   width: 100%;
-  border-bottom: 6.25rem solid #251F47;
+  border-bottom: 6.25rem solid var(--roxo-100);
 }
 
 .linha2 {
