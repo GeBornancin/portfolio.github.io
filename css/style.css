@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 :root{
-  --roxo-100: #251F47;
-  --lilas-500: #8997d1;
+  --preto-1000: #000000;
+  --lilas-500: #87fd87;
+  --branco-200: #e2e2e2;
 }
 
 @media (max-width: 330px) {
@@ -56,7 +57,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--roxo-100);
+  background-color: var(--branco-200);
   font-family: 'Dosis', sans-serif;
   text-decoration: none;
   width: 100%;
@@ -87,7 +88,7 @@ header {
 
 .nav-link {
   opacity: 1;
-  color: rgb(238, 238, 238);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 1.875rem;
   font-weight: 700;
@@ -95,7 +96,7 @@ header {
 
 .nav-link:hover {
   opacity: 1;
-  color: #e3f6ad;
+  color: #696869;
 }
 
 .home {
@@ -113,6 +114,11 @@ header {
   align-items: center;
   flex-direction: column;
   font-family: 'Dosis', sans-serif;
+ background-color: #000;
+ opacity: 0.8;
+  border-radius: 5.25rem;
+  
+  
 }
 
 .home-text h2 {
@@ -122,8 +128,8 @@ header {
 }
 
 .button-resume {
-  --bg: #251F47;
-  --hover-bg: #ff90e8;
+  --bg: #302e2e;
+  --hover-bg: #bdbdbd;
   --hover-text: #000;
   color: #fff;
   cursor: pointer;
@@ -150,15 +156,19 @@ header {
   justify-content: center;
   width: 18.75rem;
   height: 18.75rem;
+  /* border-radius:1.26rem 1.26rem 0% 0%; */
+  border-radius: 50%;
   margin-bottom: 10px;
+  
 }
 
 .background-img {
   position: relative;
-  background-image: url('https://i.pinimg.com/originals/e6/d7/20/e6d7207d515a89b34a9b89b0da38c5ab.gif');
+  background-image: url('https://i.pinimg.com/originals/a3/f3/ab/a3f3abe546f87d7bceb19ff1f3eea602.gif');
   background-size: cover;
   background-repeat: no-repeat;
-}
+  }
+
 
 .background-img::before {
   content: "";
@@ -174,11 +184,13 @@ header {
 }
 
 .card {
+  border-radius: 1.25rem;
   width: 18.75rem;
   height: 34.375rem;
-  background: #8997d1;
+  /* background:  var(--preto-1000); */
   box-shadow: rgba(0, 0, 0, 0.4) 0rem 0.4rem 0.8rem, rgba(0, 0, 0, 0.3) 0rem 1.4rem 2.3rem -0.6rem, rgba(0, 0, 0, 0.2) 0rem -0.6rem 0rem inset;
   transition: transform 0.5s ease;
+ 
 }
 
 .card:hover {
@@ -191,7 +203,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4ebfe;
+  background-color: #050505;
 }
 
 .ifprlink {
@@ -537,7 +549,7 @@ header {
   align-items: center;
   padding: 0rem 0rem 0rem 0rem;
   width: 100%;
-  border-bottom: 6.25rem solid var(--roxo-100);
+  border-bottom: 6.25rem solid var(--preto-1000);
 }
 
 .linha2 {
@@ -695,7 +707,7 @@ header {
 
 * {
   scrollbar: width 1.25rem;
-  scrollbar-color: #8997d1 rgb(210, 253, 196);
+  scrollbar-color: #ffffff rgb(0, 0, 0);
 }
 
 ::-webkit-scrollbar {
